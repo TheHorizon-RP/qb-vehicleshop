@@ -92,7 +92,7 @@ Config.Shops = {
             }
         },
     },
-    ['luxury'] = {
+  --[[  ['luxury'] = {
         ['Type'] = 'managed', -- meaning a real player has to sell the car
         ['Zone'] = {
             ['Shape'] = {
@@ -156,7 +156,7 @@ Config.Shops = {
                 chosenVehicle = 'hexer'
             },
         }
-    }, -- Add your next table under this comma
+    }, -- Add your next table under this comma]]--
     ['boats'] = {
         ['Type'] = 'free-use', -- no player interaction is required to purchase a vehicle
         ['Zone'] = {
